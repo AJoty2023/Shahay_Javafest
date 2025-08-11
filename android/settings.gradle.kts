@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "JavaFestProject"
 include(":app")
+include(":app")
  
