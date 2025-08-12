@@ -19,7 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "JavaFestProject"
-include(":app")
+rootProject.name = "Shahay"
 include(":app")
  
