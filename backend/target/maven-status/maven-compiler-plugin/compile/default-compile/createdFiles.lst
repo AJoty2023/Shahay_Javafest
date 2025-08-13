@@ -1,2 +1,4 @@
-com/example/backend/HelloController.class
+com/example/backend/model/TestEntity.class
+com/example/backend/repository/TestRepository.class
 com/example/backend/BackendApplication.class
+com/example/backend/DatabaseTestRunner.class

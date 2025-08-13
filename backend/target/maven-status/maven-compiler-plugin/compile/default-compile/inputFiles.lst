@@ -1,2 +1,4 @@
 /home/user/projects/java-fest/backend/src/main/java/com/example/backend/BackendApplication.java
-/home/user/projects/java-fest/backend/src/main/java/com/example/backend/HelloController.java
+/home/user/projects/java-fest/backend/src/main/java/com/example/backend/DatabaseTestRunner.java
+/home/user/projects/java-fest/backend/src/main/java/com/example/backend/model/TestEntity.java
+/home/user/projects/java-fest/backend/src/main/java/com/example/backend/repository/TestRepository.java
