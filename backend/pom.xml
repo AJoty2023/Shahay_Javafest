@@ -47,7 +47,15 @@
     <artifactId>mysql-connector-j</artifactId>
     <scope>runtime</scope>
 </dependency>
-
+        <!-- Flyway Dependences-->
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-mysql</artifactId>
+        </dependency>
 
         <!-- JWT -->
         <dependency>
