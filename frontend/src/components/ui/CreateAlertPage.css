@@ -1,0 +1,63 @@
+.create-alert-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+    animation: gradientShift 10s ease infinite;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .alert-card {
+    background: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    width: 400px;
+    animation: fadeIn 1s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px);}
+    to { opacity: 1; transform: translateY(0);}
+  }
+  
+  .input-field {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: all 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #8e2de2;
+    box-shadow: 0 0 8px rgba(142,45,226,0.5);
+    outline: none;
+  }
+  
+  .textarea-field {
+    min-height: 100px;
+  }
+  
+  .submit-btn {
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    background: #28a745;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
